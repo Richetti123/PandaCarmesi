@@ -6,12 +6,12 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let pp = gataImg
-const cat = `𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁
+const cat = `𝐏𝐚𝐧𝐝𝐚𝐂𝐚𝐫𝐦𝐞𝐬𝐢
 * ${bot}
 
 *---------------------*
 
-𝙈𝙄𝘾𝙃𝙄 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+𝙋𝘼𝙉𝘿𝘼𝘾𝘼𝙍𝙈𝙀𝙎𝙄 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
 *${asistencia}*
 
 *---------------------*`
