@@ -2,7 +2,7 @@ import { sticker } from '../lib/sticker.js'
 let handler = async(m, { conn }) => {
 if (db.data.chats[m.chat].stickers) {
 
-let nombre = '𝗠𝗶𝗰𝗵𝗶𝗕𝗼𝘁'
+let nombre = '𝐏𝐚𝐧𝐝𝐚𝐂𝐚𝐫𝐦𝐞𝐬𝐢'
 let nombre2 = '𝗖𝗿𝗲𝗮𝗱𝗼 𝗽𝗼𝗿 𝗥𝗶𝗰𝗵𝗲𝘁𝘁𝗶 𝘆 𝗚𝗲𝗿𝗶𝗗𝘇𝗻' 
  
 let stiker = await sticker(null, s[Math.floor(Math.random() * s.length)], nombre, nombre2)
