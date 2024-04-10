@@ -37,7 +37,7 @@ let iggs = `┃ 𓃠 *${gt} ${vs}*
 let aa = `${res3.result.photo_profile || res.profile}`
 await conn.sendFile(m.chat, aa, 'error.jpg', iggs, m)
 conn.reply(m.chat, `${lenguajeGB['smsAvisoIIG']()} *${mid.smsinfo}*`, m, {contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+title: '𝐏𝐚𝐧𝐝𝐚𝐂𝐚𝐫𝐦𝐞𝐬𝐢',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: gataMenu,
 sourceUrl: md}}})
